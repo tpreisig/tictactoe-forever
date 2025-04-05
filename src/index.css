@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  background: rgba(255, 0, 255, 0.2);
+  min-height: 100vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.9) 2px,
+      transparent 2px
+    ),
+    linear-gradient(to top, rgba(255, 255, 255, 0.9) 2px, transparent 2px);
+  background-position: center;
+  background-size: 300px 300px;
+}
+html {
+  font-family: "Victor Mono";
+  font-weight: 800;
+}
+.wrapper {
+  min-width: 420px;
+  width: 50%;
+  margin: 2vh auto;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: transparent;
+  padding: 12vh 0;
+  border-radius: 9px;
+  transition: all 0.9s ease-in-out;
+}
+.wrapper:hover {
+  background: linear-gradient(
+    30deg,
+    rgba(255, 0, 111, 0.508),
+    rgba(0, 200, 255, 0.367)
+  );
+  backdrop-filter: blur(3px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  border: 2px solid #fff;
+}
+.wrapper .board-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  transform: translateY(-5vh);
+}
