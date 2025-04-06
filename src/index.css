@@ -56,3 +56,22 @@ html {
   gap: 4px;
   transform: translateY(-5vh);
 }
+.square {
+  font-size: 4rem;
+  font-weight: 400;
+  background: rgba(0, 0, 255, 0.3);
+  backdrop-filter: blur(30px);
+  min-width: 125px;
+  min-height: 125px;
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.3);
+}
+.square:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 255, 0.2);
+  border: 2px solid rgba(255, 0, 0, 0.2);
+  transform: scale(0.95);
+}
+.status {
+  margin-bottom: 10vh;
+  font-size: 4rem;
+}
