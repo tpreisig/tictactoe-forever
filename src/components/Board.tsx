@@ -47,7 +47,7 @@ const Board = () => {
   const winner: SquareValue = calculateWinner(squares);
   const status: string = winner
     ? `🏆 Winner ${winner}`
-    : `➡️ Player ${xNow ? "X" : "O"}`;
+    : `🗣️ Player ${xNow ? "X" : "O"}`;
 
   return (
     <>

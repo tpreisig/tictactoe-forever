@@ -1,4 +1,4 @@
-import Board from "./components/Borad";
+import Board from "./components/Board";
 
 const App = () => {
   return (
